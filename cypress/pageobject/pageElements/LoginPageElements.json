@@ -4,5 +4,8 @@
         "password_text":"[data-test='password']",
         "login_button" : "#login-button"
 
+    },
+    "HomePageLocator":{
+        "homepage_title":".header_secondary_container"
     }
 }

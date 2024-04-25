@@ -13,6 +13,6 @@ export class loginPageElements {
         return
     }
     verifyLogin(){
-        cy.get('.header_secondary_container').should('be.visible')
+        cy.get(loginElementLocators.HomePageLocator.homepage_title).should('be.visible')
     }
 }

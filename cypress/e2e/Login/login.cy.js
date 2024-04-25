@@ -1,12 +1,12 @@
-import { loginPageElements } from "../../../PageObject/PageActions/LoginPage";
+import { loginPageElements } from "../../pageobject/pageActions/LoginPage";
 
 const Login_Elements = new loginPageElements
-describe('POM test suite', () => {
+describe('Login', () => {
     before(() => {
         cy.visit('https://www.saucedemo.com/v1/')
     });
     
-    it('Login Page', function(){
+    it('Verify user success login', function(){
         Login_Elements.username('standard_user')
         Login_Elements.password('secret_sauce')
         Login_Elements.loginButton()

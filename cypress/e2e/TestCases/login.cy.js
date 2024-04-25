@@ -10,5 +10,6 @@ describe('POM test suite', () => {
         Login_Elements.username('standard_user')
         Login_Elements.password('secret_sauce')
         Login_Elements.loginButton()
+        Login_Elements.verifyLogin()
     });
 });

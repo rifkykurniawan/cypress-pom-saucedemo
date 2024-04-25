@@ -12,4 +12,7 @@ export class loginPageElements {
         cy.get(loginElementLocators.LoginPageLocator.login_button).click()
         return
     }
+    verifyLogin(){
+        cy.get('.header_secondary_container').should('be.visible')
+    }
 }

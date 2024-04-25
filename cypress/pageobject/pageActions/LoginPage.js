@@ -14,5 +14,13 @@ export class loginPageElements {
     }
     verifyLogin(){
         cy.get(loginElementLocators.HomePageLocator.homepage_title).should('be.visible')
+        return
+    }
+    verifyFailedLogin(){
+        cy.get(loginElementLocators.LoginPageLocator.error_message).should('be.visible')
+    }
+    verifyLoginPage(){
+        cy.get(loginElementLocators.LoginPageLocator.username_text).should('be.visible')
+        cy.get(loginElementLocators.LoginPageLocator.password_text).should('be.visible')
     }
 }

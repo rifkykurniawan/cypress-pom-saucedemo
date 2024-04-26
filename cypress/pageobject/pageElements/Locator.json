@@ -6,6 +6,22 @@
         "error_message" :"[data-test='error']"
     },
     "HomePage":{
-        "homepage_title":".header_secondary_container"
+        "homepage_title":".header_secondary_container",
+        "menu_button":".bm-burger-button > button",
+        "inventory_menu" : "#inventory_sidebar_link",
+        "about_menu":"#about_sidebar_link",
+        "logout_menu":"#logout_sidebar_link",
+        "resetAppState_menu":"#reset_sidebar_link",
+        "chart_button":"#shopping_cart_container",
+        "page_title":".product_label",
+        "product_sort":".product_sort_container",
+        "list_product":".inventory_list > :nth-child(1)",
+        "productPrice_label":":nth-child(1) > .pricebar > .inventory_item_price",
+        "product_title":"#item_4_title_link > .inventory_item_name",
+        "productDescription":":nth-child(1) > .inventory_item_label > .inventory_item_desc",
+        "footer":".footer"
+    },
+    "ChartPage":{
+        "checkout_button":".btn_action"
     }
 }

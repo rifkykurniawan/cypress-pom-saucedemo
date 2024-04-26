@@ -21,4 +21,5 @@ export class loginPageElements {
         cy.get(locator.LoginPage.username_text).should('be.visible')
         cy.get(locator.LoginPage.password_text).should('be.visible')
     }
+    
 }

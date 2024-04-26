@@ -1,6 +1,6 @@
 import { loginPageElements } from "../../pageobject/pageActions/LoginPage";
-
 const Login_Elements = new loginPageElements
+
 describe('Login', () => {
     beforeEach(() => {
         cy.visit('https://www.saucedemo.com/v1/')
@@ -27,8 +27,8 @@ describe('Login', () => {
         Login_Elements.verifyFailedLogin()
     });
     it('Verify login with empty username and password',function(){
-        Login_Elements.username('.clear')
-        Login_Elements.password('.clear')
+        Login_Elements.username('{backspace}')
+        Login_Elements.password('{backspace}')
         Login_Elements.loginButton()
         Login_Elements.verifyFailedLogin()
     });

@@ -1,11 +1,11 @@
 {
-    "LoginPageLocator":{
+    "LoginPage":{
         "username_text":"[data-test='username']",
         "password_text":"[data-test='password']",
         "login_button" : "#login-button",
         "error_message" :"[data-test='error']"
     },
-    "HomePageLocator":{
+    "HomePage":{
         "homepage_title":".header_secondary_container"
     }
 }

@@ -9,10 +9,10 @@ export class loginPageElements {
         return
     }
     loginButton(){
-        cy.get(loginElementLocators.LoginPageLocator.login_button).click() 
+        cy.get(locator.LoginPage.login_button).click() 
     }
     verifyLogin(){
-        cy.get(loginElementLocators.HomePageLocator.homepage_title).should('be.visible')
+        cy.get(locator.HomePage.homepage_title).should('be.visible')
     }
     verifyFailedLogin(){
         cy.get(locator.LoginPage.error_message).should('be.visible')

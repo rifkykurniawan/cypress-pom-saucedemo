@@ -19,7 +19,8 @@
         "productPrice_label":":nth-child(1) > .pricebar > .inventory_item_price",
         "product_title":"#item_4_title_link > .inventory_item_name",
         "productDescription":":nth-child(1) > .inventory_item_label > .inventory_item_desc",
-        "footer":".footer"
+        "footer":".footer",
+        "addToChart_button1":":nth-child(1) > .pricebar > .btn_primary"
     },
     "ChartPage":{
         "checkout_button":".btn_action"

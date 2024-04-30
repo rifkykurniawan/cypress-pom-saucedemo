@@ -24,4 +24,7 @@ export class homePageElements{
         cy.get(locator.HomePage.productDescription).should('be.visible')
         cy.get(locator.HomePage.footer).scrollIntoView()        
     }
+    addProductToChart(){
+        cy.get(locator.HomePage.addToChart_button1).click()
+    }
 }

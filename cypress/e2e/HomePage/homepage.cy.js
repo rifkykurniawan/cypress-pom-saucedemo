@@ -21,4 +21,8 @@ describe('Homepage', () => {
     it('Verify homepage copy (EN)', () => {
         Homepage_Elements.verify_homePageCopy()
     });
+    it('Verify add product to chart', () => {
+        Homepage_Elements.addProductToChart()
+        Homepage_Elements.chart_button()
+    });
 });

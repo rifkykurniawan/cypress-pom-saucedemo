@@ -20,9 +20,15 @@
         "product_title":"#item_4_title_link > .inventory_item_name",
         "productDescription":":nth-child(1) > .inventory_item_label > .inventory_item_desc",
         "footer":".footer",
-        "addToChart_button1":":nth-child(1) > .pricebar > .btn_primary"
+        "addToChart_button1":":nth-child(1) > .pricebar > .btn_primary",
+        "addToChart_button2":":nth-child(2) > .pricebar > .btn_primary",
+        "item1":"#item_4_title_link > .inventory_item_name",
+        "item2":"#item_0_title_link > .inventory_item_name"
+        
     },
     "ChartPage":{
-        "checkout_button":".btn_action"
+        "checkout_button":".btn_action",
+        "firstItem":"#item_4_title_link > .inventory_item_name",
+        "secondItem":"#item_0_title_link > .inventory_item_name"
     }
 }

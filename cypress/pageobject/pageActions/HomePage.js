@@ -13,6 +13,7 @@ export class homePageElements{
     chart_button(){
         cy.get(locator.HomePage.chart_button).click()
         cy.get(locator.ChartPage.checkout_button).should('be.visible')
+
     }
     verify_homePageCopy(){
         cy.get(locator.HomePage.chart_button).should('be.visible')
@@ -26,5 +27,10 @@ export class homePageElements{
     }
     addProductToChart(){
         cy.get(locator.HomePage.addToChart_button1).click()
+        cy.get(locator.HomePage.addToChart_button2).click()
     }
+    verifyChartData(){
+        cy.get(locator.ChartPage.firstItem).should('be.visible')
+    }
+
 }

@@ -24,5 +24,9 @@ describe('Homepage', () => {
     it('Verify add product to chart', () => {
         Homepage_Elements.addProductToChart()
         Homepage_Elements.chart_button()
+        Homepage_Elements.verifyChartData()
+    });
+    it('Verify remove product from chart', () => {
+        
     });
 });

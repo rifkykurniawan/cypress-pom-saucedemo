@@ -22,6 +22,10 @@
         "footer":".footer",
         "addToChart_button1":":nth-child(1) > .pricebar > .btn_primary",
         "addToChart_button2":":nth-child(2) > .pricebar > .btn_primary",
+        "addToChart_button3":":nth-child(3) > .pricebar > .btn_primary",
+        "addToChart_button4":":nth-child(4) > .pricebar > .btn_primary",
+        "addToChart_button5":":nth-child(5) > .pricebar > .btn_primary",
+        "addToChart_button6":":nth-child(6) > .pricebar > .btn_primary",
         "item1":"#item_4_title_link > .inventory_item_name",
         "item2":"#item_0_title_link > .inventory_item_name"
     },
@@ -31,7 +35,12 @@
         "secondItem":"#item_0_title_link > .inventory_item_name",
         "remove_button1":":nth-child(3) > .cart_item_label > .item_pricebar > .btn_secondary",
         "remove_button2":":nth-child(4) > .cart_item_label > .item_pricebar > .btn_secondary",
-        "btn_continue":".btn_secondary"
+        "remove_button3":":nth-child(5) > .cart_item_label > .item_pricebar > .btn_secondary",
+        "remove_button4":":nth-child(6) > .cart_item_label > .item_pricebar > .btn_secondary",
+        "remove_button5":":nth-child(7) > .cart_item_label > .item_pricebar > .btn_secondary",
+        "remove_button6":":nth-child(8) > .cart_item_label > .item_pricebar > .btn_secondary",
+        "btn_continue":".btn_secondary",
+        "icon_count":".fa-layers-counter"
 
     },
     "LogOut":{

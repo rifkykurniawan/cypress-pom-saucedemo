@@ -39,5 +39,24 @@ export class homePageElements{
     clickBtnContinueShopping(){
         cy.get(locator.ChartPage.btn_continue).click()
     }
+    addAllProductToChart(){
+        cy.get(locator.HomePage.addToChart_button1).click()
+        cy.get(locator.HomePage.addToChart_button2).click()
+        cy.get(locator.HomePage.addToChart_button3).click()
+        cy.get(locator.HomePage.addToChart_button4).click()
+        cy.get(locator.HomePage.addToChart_button5).click()
+        cy.get(locator.HomePage.addToChart_button6).click()
+    }
+    removeAllProductFromChart(){
+        cy.get(locator.ChartPage.remove_button1).click()
+        cy.get(locator.ChartPage.remove_button2).click()
+        cy.get(locator.ChartPage.remove_button3).click()
+        cy.get(locator.ChartPage.remove_button4).click()
+        cy.get(locator.ChartPage.remove_button5).click()
+        cy.get(locator.ChartPage.remove_button6).click()
+    }
+    verifyIconCounter(){
+        cy.get(locator.ChartPage.icon_count).should('not.exist')
+    }
 
 }

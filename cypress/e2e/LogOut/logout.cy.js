@@ -1,6 +1,6 @@
 import { loginPageElements } from "../../pageobject/pageActions/LoginPage";
-const Login_Elements = new loginPageElements
 import { LogoutPage } from "../../pageobject/pageActions/LogoutPage";
+const Login_Elements = new loginPageElements
 const LogOut_Elements = new LogoutPage
 
 describe('Log Out', () => {

@@ -32,6 +32,14 @@ describe('Homepage', () => {
         Homepage_Elements.chart_button()
         Homepage_Elements.removeItemFromChart()
         Homepage_Elements.clickBtnContinueShopping()
-        
+    });
+    it('Verify add all product to chart', () => {
+        Homepage_Elements.addAllProductToChart()
+    });
+    it('Verify remove all product from chart', () => {
+        Homepage_Elements.addAllProductToChart()
+        Homepage_Elements.chart_button()
+        Homepage_Elements.removeAllProductFromChart()
+        Homepage_Elements.verifyIconCounter()
     });
 });

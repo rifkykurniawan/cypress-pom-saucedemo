@@ -32,5 +32,12 @@ export class homePageElements{
     verifyChartData(){
         cy.get(locator.ChartPage.firstItem).should('be.visible')
     }
+    removeItemFromChart(){
+        cy.get(locator.ChartPage.remove_button1).click()
+        cy.get(locator.ChartPage.remove_button2).click()
+    }
+    clickBtnContinueShopping(){
+        cy.get(locator.ChartPage.btn_continue).click()
+    }
 
 }

@@ -1,5 +1,6 @@
 import { homePageElements } from "../../pageobject/pageActions/HomePage";
 import { loginPageElements } from "../../pageobject/pageActions/LoginPage";
+
 const Login_Elements = new loginPageElements
 const Homepage_Elements = new homePageElements
 
@@ -27,6 +28,10 @@ describe('Homepage', () => {
         Homepage_Elements.verifyChartData()
     });
     it('Verify remove product from chart', () => {
+        Homepage_Elements.addProductToChart()
+        Homepage_Elements.chart_button()
+        Homepage_Elements.removeItemFromChart()
+        Homepage_Elements.clickBtnContinueShopping()
         
     });
 });

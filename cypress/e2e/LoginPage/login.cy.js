@@ -32,4 +32,10 @@ describe('Login', () => {
         Login_Elements.loginButton()
         Login_Elements.verifyFailedLogin()
     });
+    it('Verify login with locked account', () => {
+        Login_Elements.username('locked_out_user')
+        Login_Elements.password('secret_user')
+        Login_Elements.loginButton()
+        Login_Elements.verifyFailedLogin()
+    });
 });

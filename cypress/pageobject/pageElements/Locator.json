@@ -24,11 +24,19 @@
         "addToChart_button2":":nth-child(2) > .pricebar > .btn_primary",
         "item1":"#item_4_title_link > .inventory_item_name",
         "item2":"#item_0_title_link > .inventory_item_name"
-        
     },
     "ChartPage":{
         "checkout_button":".btn_action",
         "firstItem":"#item_4_title_link > .inventory_item_name",
-        "secondItem":"#item_0_title_link > .inventory_item_name"
+        "secondItem":"#item_0_title_link > .inventory_item_name",
+        "remove_button1":":nth-child(3) > .cart_item_label > .item_pricebar > .btn_secondary",
+        "remove_button2":":nth-child(4) > .cart_item_label > .item_pricebar > .btn_secondary",
+        "btn_continue":".btn_secondary"
+
+    },
+    "LogOut":{
+        "burger_button":".bm-burger-button > button",
+        "log_out_button":"#logout_sidebar_link"
     }
+
 }
